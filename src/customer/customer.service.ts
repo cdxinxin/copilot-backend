@@ -1,0 +1,11 @@
+import { Injectable } from '@nestjs/common';
+
+@Injectable()
+export class CustomerService {
+  findAll() {
+    return [
+      { id: 1, name: 'Customer 1', email: 'customer1@example.com' },
+      { id: 2, name: 'Customer 2', email: 'customer2@example.com' }
+    ];
+  }
+}

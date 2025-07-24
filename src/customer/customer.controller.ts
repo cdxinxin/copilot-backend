@@ -15,15 +15,6 @@ export class CustomerController {
     return this.customerService.findAll();
   }
 
-  @Get(':id/dashboard')
-  @ApiOperation({ summary: 'Get customer dashboard data' })
-  @ApiResponse({ status: 200, description: 'Dashboard data', type: DashboardDataDto })
-  @ApiParam({ name: 'id', description: 'Customer ID' })
-  getDashboardData(@Param('id') customerId: string): DashboardDataDto {
-    console.log(`📊 Dashboard API called for customer: ${customerId} at ${new Date().toISOString()}`);
-    return this.customerService.getDashboardData(customerId);
-  }
-
   @Get(':id/portfolio')
   @ApiOperation({ summary: 'Get customer portfolio data' })
   @ApiResponse({ status: 200, description: 'Portfolio data', type: PortfolioDataDto })

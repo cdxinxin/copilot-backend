@@ -29,10 +29,10 @@ async function bootstrap() {
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api/docs', app, document);
 
-  // 启动服务，监听端口 8001
-  await app.listen(8001);
-  console.log('🚀 NestJS Backend is running on http://localhost:8001');
-  console.log('📖 API Documentation available at http://localhost:8001/api/docs');
+  // 启动服务，监听端口 8000
+  await app.listen(8000);
+  console.log('🚀 NestJS Backend is running on http://localhost:8000');
+  console.log('📖 API Documentation available at http://localhost:8000/api/docs');
 }
 
 bootstrap();

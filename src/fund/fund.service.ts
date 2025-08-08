@@ -14,4 +14,8 @@ export class FundService {
   getFundPerformance(id: string) {
     return mockFundPerformances.filter(perf => perf.fundId === id);
   }
+
+  findByCode(code: string) {
+    return mockFundList.find(fund => fund.code === code);
+  }
 }

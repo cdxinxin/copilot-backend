@@ -19,6 +19,10 @@ export class FundController {
   @ApiOperation({ summary: 'Get fund detail by code' })
   @ApiResponse({ status: 200, description: 'Fund detail', type: FundDto })
   findByCode(@Param('code') code: string): FundDto {
-    return this.fundService.findByCode(code);
+    const fund = this.fundService.findByCode(code);
+    if (!fund) {
+      throw new NotFoundException(`Fund with code '${code}' not found`);
+    }
+    return fund;
   }
 }

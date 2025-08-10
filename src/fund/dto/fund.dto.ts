@@ -1,54 +1,54 @@
 import { ApiProperty } from '@nestjs/swagger';
 
 export class FundDto {
-  @ApiProperty({ description: '基金ID' })
+  @ApiProperty({ description: 'Fund ID' })
   id: string;
 
-  @ApiProperty({ description: '基金名称' })
+  @ApiProperty({ description: 'Fund Name' })
   fundName: string;
 
-  @ApiProperty({ description: '基金代码' })
+  @ApiProperty({ description: 'Fund Code' })
   code: string;
 
-  @ApiProperty({ description: '单位净值' })
+  @ApiProperty({ description: 'Unit Net Value' })
   unitPrice: number;
 
-  @ApiProperty({ description: '币种代码' })
+  @ApiProperty({ description: 'Currency Code' })
   currencyCode: string;
 
-  @ApiProperty({ description: '净值日期' })
+  @ApiProperty({ description: 'Net Value Date' })
   priceDate: string;
 
-  @ApiProperty({ description: '净值涨跌' })
+  @ApiProperty({ description: 'Net Value Change' })
   navChange: number;
 
-  @ApiProperty({ description: '净值涨跌百分比' })
+  @ApiProperty({ description: 'Net Value Change Percentage' })
   navChangePercent: number;
 
-  @ApiProperty({ description: '基金类型' })
+  @ApiProperty({ description: 'Fund Type' })
   fundType: string;
 
-  @ApiProperty({ description: '风险等级' })
+  @ApiProperty({ description: 'Risk Level' })
   riskLevel: string;
 
-  @ApiProperty({ description: '基金管理人' })
+  @ApiProperty({ description: 'Fund Manager' })
   manager: string;
 
-  @ApiProperty({ description: '基金成立日期' })
+  @ApiProperty({ description: 'Fund Establishment Date' })
   establishedDate: string;
 
-  @ApiProperty({ description: '基金规模（单位：亿元）' })
+  @ApiProperty({ description: 'Fund Size (in 100 million CNY)' })
   fundSize: number;
 
-  @ApiProperty({ description: '基金状态' })
+  @ApiProperty({ description: 'Fund Status' })
   status: string;
 
-  @ApiProperty({ description: '基金托管人' })
+  @ApiProperty({ description: 'Fund Custodian' })
   custodian: string;
 
-  @ApiProperty({ description: '基金分红方式' })
+  @ApiProperty({ description: 'Fund Dividend Type' })
   dividendType: string;
 
-  @ApiProperty({ description: '基金投资范围' })
+  @ApiProperty({ description: 'Fund Investment Scope' })
   investmentScope: string;
 }

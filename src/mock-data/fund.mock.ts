@@ -55,7 +55,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.12,
-    navChangePercent: 1.18
+    navChangePercent: 1.18,
+    fundType: 'Equity',
+    riskLevel: 'High',
+    manager: 'Manulife',
+    establishedDate: '2015-03-01',
+    fundSize: 25.6,
+    status: 'Active',
+    custodian: 'HSBC',
+    dividendType: 'Accumulation',
+    investmentScope: 'Global Equities'
   },
   {
     id: 'FUND002',
@@ -65,7 +74,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: -0.05,
-    navChangePercent: -0.59
+    navChangePercent: -0.59,
+    fundType: 'Fixed Income',
+    riskLevel: 'Low',
+    manager: 'Manulife',
+    establishedDate: '2012-06-15',
+    fundSize: 18.3,
+    status: 'Active',
+    custodian: 'Citi',
+    dividendType: 'Distribution',
+    investmentScope: 'Global Bonds'
   },
   {
     id: 'FUND003',
@@ -75,7 +93,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.08,
-    navChangePercent: 0.82
+    navChangePercent: 0.82,
+    fundType: 'Multi Asset',
+    riskLevel: 'Medium',
+    manager: 'Manulife',
+    establishedDate: '2018-01-20',
+    fundSize: 12.7,
+    status: 'Active',
+    custodian: 'HSBC',
+    dividendType: 'Accumulation',
+    investmentScope: 'Equities & Bonds'
   },
   {
     id: 'FUND004',
@@ -85,7 +112,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.20,
-    navChangePercent: 1.68
+    navChangePercent: 1.68,
+    fundType: 'Equity',
+    riskLevel: 'Medium',
+    manager: 'Manulife',
+    establishedDate: '2016-09-10',
+    fundSize: 20.1,
+    status: 'Active',
+    custodian: 'Citi',
+    dividendType: 'Distribution',
+    investmentScope: 'Asia Equities'
   },
   {
     id: 'FUND005',
@@ -95,7 +131,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: -0.03,
-    navChangePercent: -0.38
+    navChangePercent: -0.38,
+    fundType: 'Fixed Income',
+    riskLevel: 'Low',
+    manager: 'Manulife',
+    establishedDate: '2011-11-05',
+    fundSize: 15.9,
+    status: 'Active',
+    custodian: 'HSBC',
+    dividendType: 'Distribution',
+    investmentScope: 'Global Bonds'
   },
   {
     id: 'FUND006',
@@ -105,7 +150,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.25,
-    navChangePercent: 1.63
+    navChangePercent: 1.63,
+    fundType: 'Equity',
+    riskLevel: 'High',
+    manager: 'Manulife',
+    establishedDate: '2017-04-18',
+    fundSize: 22.4,
+    status: 'Active',
+    custodian: 'Citi',
+    dividendType: 'Accumulation',
+    investmentScope: 'US Equities'
   },
   {
     id: 'FUND007',
@@ -115,7 +169,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.10,
-    navChangePercent: 0.89
+    navChangePercent: 0.89,
+    fundType: 'Equity',
+    riskLevel: 'High',
+    manager: 'Manulife',
+    establishedDate: '2019-07-22',
+    fundSize: 14.2,
+    status: 'Active',
+    custodian: 'HSBC',
+    dividendType: 'Accumulation',
+    investmentScope: 'China Equities'
   },
   {
     id: 'FUND008',
@@ -125,7 +188,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.18,
-    navChangePercent: 1.36
+    navChangePercent: 1.36,
+    fundType: 'Equity',
+    riskLevel: 'High',
+    manager: 'Manulife',
+    establishedDate: '2014-02-28',
+    fundSize: 19.8,
+    status: 'Active',
+    custodian: 'Citi',
+    dividendType: 'Distribution',
+    investmentScope: 'Emerging Markets'
   },
   {
     id: 'FUND009',
@@ -135,7 +207,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.30,
-    navChangePercent: 1.82
+    navChangePercent: 1.82,
+    fundType: 'Equity',
+    riskLevel: 'High',
+    manager: 'Manulife',
+    establishedDate: '2020-05-10',
+    fundSize: 16.5,
+    status: 'Active',
+    custodian: 'HSBC',
+    dividendType: 'Accumulation',
+    investmentScope: 'Technology Sector'
   },
   {
     id: 'FUND010',
@@ -145,7 +226,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.22,
-    navChangePercent: 1.57
+    navChangePercent: 1.57,
+    fundType: 'Equity',
+    riskLevel: 'Medium',
+    manager: 'Manulife',
+    establishedDate: '2013-08-30',
+    fundSize: 13.6,
+    status: 'Active',
+    custodian: 'Citi',
+    dividendType: 'Distribution',
+    investmentScope: 'Healthcare Sector'
   },
   {
     id: 'FUND011',
@@ -155,7 +245,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.09,
-    navChangePercent: 0.83
+    navChangePercent: 0.83,
+    fundType: 'Equity',
+    riskLevel: 'Medium',
+    manager: 'Manulife',
+    establishedDate: '2016-12-12',
+    fundSize: 11.2,
+    status: 'Active',
+    custodian: 'HSBC',
+    dividendType: 'Accumulation',
+    investmentScope: 'ESG Investments'
   },
   {
     id: 'FUND012',
@@ -165,7 +264,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.07,
-    navChangePercent: 0.73
+    navChangePercent: 0.73,
+    fundType: 'Equity',
+    riskLevel: 'Medium',
+    manager: 'Manulife',
+    establishedDate: '2010-10-01',
+    fundSize: 10.8,
+    status: 'Active',
+    custodian: 'Citi',
+    dividendType: 'Distribution',
+    investmentScope: 'Dividend Stocks'
   },
   {
     id: 'FUND013',
@@ -175,7 +283,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.01,
-    navChangePercent: 0.15
+    navChangePercent: 0.15,
+    fundType: 'Money Market',
+    riskLevel: 'Low',
+    manager: 'Manulife',
+    establishedDate: '2012-02-14',
+    fundSize: 8.3,
+    status: 'Active',
+    custodian: 'HSBC',
+    dividendType: 'Accumulation',
+    investmentScope: 'Short-term Instruments'
   },
   {
     id: 'FUND014',
@@ -185,7 +302,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.16,
-    navChangePercent: 1.17
+    navChangePercent: 1.17,
+    fundType: 'Equity',
+    riskLevel: 'Medium',
+    manager: 'Manulife',
+    establishedDate: '2015-05-25',
+    fundSize: 17.4,
+    status: 'Active',
+    custodian: 'Citi',
+    dividendType: 'Distribution',
+    investmentScope: 'Pacific Region'
   },
   {
     id: 'FUND015',
@@ -195,7 +321,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.13,
-    navChangePercent: 1.03
+    navChangePercent: 1.03,
+    fundType: 'Equity',
+    riskLevel: 'Medium',
+    manager: 'Manulife',
+    establishedDate: '2013-03-17',
+    fundSize: 13.9,
+    status: 'Active',
+    custodian: 'HSBC',
+    dividendType: 'Accumulation',
+    investmentScope: 'Europe Region'
   },
   {
     id: 'FUND016',
@@ -205,7 +340,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.11,
-    navChangePercent: 0.94
+    navChangePercent: 0.94,
+    fundType: 'Equity',
+    riskLevel: 'Medium',
+    manager: 'Manulife',
+    establishedDate: '2018-09-09',
+    fundSize: 12.1,
+    status: 'Active',
+    custodian: 'Citi',
+    dividendType: 'Distribution',
+    investmentScope: 'Japan Equities'
   },
   {
     id: 'FUND017',
@@ -215,7 +359,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.14,
-    navChangePercent: 1.36
+    navChangePercent: 1.36,
+    fundType: 'Equity',
+    riskLevel: 'High',
+    manager: 'Manulife',
+    establishedDate: '2017-11-11',
+    fundSize: 10.5,
+    status: 'Active',
+    custodian: 'HSBC',
+    dividendType: 'Accumulation',
+    investmentScope: 'India Equities'
   },
   {
     id: 'FUND018',
@@ -225,7 +378,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.28,
-    navChangePercent: 1.65
+    navChangePercent: 1.65,
+    fundType: 'Real Estate',
+    riskLevel: 'Medium',
+    manager: 'Manulife',
+    establishedDate: '2016-06-06',
+    fundSize: 21.7,
+    status: 'Active',
+    custodian: 'Citi',
+    dividendType: 'Distribution',
+    investmentScope: 'Global Real Estate'
   },
   {
     id: 'FUND019',
@@ -235,7 +397,16 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.21,
-    navChangePercent: 1.41
+    navChangePercent: 1.41,
+    fundType: 'Infrastructure',
+    riskLevel: 'Medium',
+    manager: 'Manulife',
+    establishedDate: '2014-04-04',
+    fundSize: 18.9,
+    status: 'Active',
+    custodian: 'HSBC',
+    dividendType: 'Accumulation',
+    investmentScope: 'Infrastructure Assets'
   },
   {
     id: 'FUND020',
@@ -245,6 +416,15 @@ export const mockFundList: FundDto[] = [
     currencyCode: 'USD',
     priceDate: '2025-07-15',
     navChange: 0.35,
-    navChangePercent: 1.93
+    navChangePercent: 1.93,
+    fundType: 'Multi Asset',
+    riskLevel: 'High',
+    manager: 'Manulife',
+    establishedDate: '2021-01-01',
+    fundSize: 23.2,
+    status: 'Active',
+    custodian: 'Citi',
+    dividendType: 'Distribution',
+    investmentScope: 'Global Opportunities'
   }
 ];

@@ -1,17 +1,21 @@
 import { Injectable } from '@nestjs/common';
-import { mockFunds, mockFundPerformances } from '../mock-data';
+import { mockFundList, mockFundPerformances } from '../mock-data';
 
 @Injectable()
 export class FundService {
   findAll() {
-    return mockFunds;
+    return mockFundList;
   }
 
   findOne(id: string) {
-    return mockFunds.find(fund => fund.id === id);
+    return mockFundList.find(fund => fund.id === id);
   }
 
   getFundPerformance(id: string) {
     return mockFundPerformances.filter(perf => perf.fundId === id);
+  }
+
+  findByCode(code: string) {
+    return mockFundList.find(fund => fund.code === code);
   }
 }
